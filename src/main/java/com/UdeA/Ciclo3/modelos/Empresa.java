@@ -5,6 +5,8 @@ import javax.persistence.*;
 @Entity
 @Table(name="Empresa")
 
+//base de datos tipo objeto virtual
+
 public class Empresa {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
