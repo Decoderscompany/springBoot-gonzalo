@@ -21,8 +21,7 @@ public class Empleado {
     public Empleado() {
     }
 
-    public Empleado(int id, String nombre, String correo, Empresa empresa, String rol) {
-        this.id = id;
+    public Empleado(String nombre, String correo, Empresa empresa, String rol) {
         this.nombre = nombre;
         this.correo = correo;
         this.empresa = empresa;
@@ -34,7 +33,7 @@ public class Empleado {
     }
 
     public void setId(int id) {
-        this.id = id;
+         this.id = id;
     }
 
     public String getNombre() {
